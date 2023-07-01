@@ -45,9 +45,7 @@ client.once(Events.ClientReady, () => {
   console.log(`Ready! Logged in as ${client.user.tag}`);
 });
 
-client.on("messageCreate", (message) => {
-
-});
+// client.on("messageCreate", (message) => {});
 
 client.login(process.env.DISCORD_TOKEN);
 
